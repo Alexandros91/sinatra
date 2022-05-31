@@ -7,11 +7,11 @@ get '/' do
   end
 
 get '/secret' do
-    "Let's play some football"
+    "This is a secret message"
   end
 
 get '/response' do
-    "my leg hurts."
+    "This is the response"
   end
 
 get '/random-cat' do
@@ -25,6 +25,6 @@ get '/random-cat' do
     erb(:index)
   end
 
-  get '/form' do
+  get '/cat-form' do
     erb(:cat_form)
   end
